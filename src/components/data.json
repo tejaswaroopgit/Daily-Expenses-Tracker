@@ -1,0 +1,84 @@
+[
+    {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "Costco",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "Walmart",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "Target",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "Macy's",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "Tommy Hilfiher",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "Clothing",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "United HealthCare",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "United Airlines",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "DCU",
+        "expenseAmount":200,
+        "description":"Text Area Text"
+    }, {
+        "ExpenseType":"Shoping",
+        "ExpenseSubtype":"Clothing",
+        "unlistedExpenseLabel":"valu   or  default its null",
+        "dateOfExpense":"09/02/1992",
+        "storeName" : "Patel Brothers",
+        "expenseAmount":200,
+        "specifiProductDesc":"product",
+        "description":"Text Area Text"
+    }
+]

@@ -1,0 +1,11 @@
+body{
+    background:url('../img/wall2.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padding-0{
+    padding:0px !important;
+}
+.display-flex{
+    display:flex !important;
+}

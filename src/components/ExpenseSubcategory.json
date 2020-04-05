@@ -1,0 +1,43 @@
+{
+    "payments": {
+        "Phone Bill": 0,
+        "Wifi Bill": 0,
+        "Electricity Bill": 0,
+        "Car Loan": 0,
+        "Home Loan": 0,
+        "Others": 0
+    },
+    "Shopping": {
+        "Clothing": 0,
+        "Electronics": 0,
+        "Accessories": 0,
+        "Others":0
+    },
+    "Food And Drink": {
+        "Grocery": 0,
+        "Dining" : 0,
+        "Liquor" : 0,
+        "Others":0
+    },
+    "Transport":{
+        "Flight":0,
+        "Public Transport":0,
+        "Car gas":0,
+        "Reg Maintnance":0,
+        "Taxi":0,
+        "Others":0
+    },
+    "Medical":{
+        "Insurance":0,
+        "Hospital Payments":0,
+        "Pharmacy Payments":0
+    },
+    "Insurance" : {
+        "Car": 0,
+        "Home" :0,
+        "Medical":0
+    },
+    "Others":{
+        "Mislanious":0
+    }
+}

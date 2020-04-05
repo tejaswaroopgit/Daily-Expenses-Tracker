@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <style>
+        .outerContainer {
+            border: 6px solid #0361ca;
+            width: 450px;
+            height: 450px;
+        }
+
+        .innerContainer {
+            height: 84px;
+            width: 94%;
+            border-bottom: 1px solid gray;
+            margin: auto;
+            display: flex;
+        }
+
+        .headerContainer {
+            height: 80px;
+            border-bottom: 2px solid darkgrey;
+            display: flex;
+        }
+
+        .headerLabelLeft {
+            width: 45%;
+            text-align: left;
+            height: 100%;
+            line-height: 80px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        .headerLabelRight {
+            width: 41%;
+            text-align: right;
+            height: 100%;
+            padding-top: 15px;
+            margin: auto;
+            font-size: 20px;
+        }
+
+        .accountLabel {
+            margin: auto;
+            margin-left: 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #0361ca;
+        }
+
+        .accountLabelContainers {
+            height: 83px;
+            width: 50%;
+            display: flex;
+        }
+
+        .accountNumDetailsContainers {
+            height: 83px;
+            width: 50%;
+        }
+
+        .accountValue {
+            padding: 20px;
+        }
+
+        .currnetAccBalance {
+            font-size: 26px;
+            text-align: right;
+        }
+
+        .percentageChangePositive {
+            color: green;
+            text-align: right;
+            font-size: 18px;
+        }
+
+        .percentageChange {
+            text-align: right;
+            color: red;
+            font-size: 18px;
+        }
+
+        .footerContainer {
+            width: 94%;
+            margin: auto;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            color: #0361ca;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .todaysChange {
+            color: gray;
+        }
+
+        .accountIndicator {
+            color: #0361ca;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outerContainer">
+        <div class="headerContainer">
+            <div class="headerLabelLeft">
+                Amount
+            </div>
+            <div class="headerLabelRight">
+                <span class="accountIndicator"> ^</span> Avilable Cash <br>
+                <div class="todaysChange">Today's Change </div>
+            </div>
+        </div>
+        <div class="innerContainer">
+            <div class="accountLabelContainers">
+                <div class="accountLabel"> IRA-123 </div>
+            </div>
+            <div class="accountNumDetailsContainers">
+                <div class="accountValue">
+                    <div class="currnetAccBalance">$5700.6 </div>
+                    <div class="percentageChange"> %0.08/$75845 </div>
+
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="innerContainer">
+            <div class="accountLabelContainers">
+                <div class="accountLabel"> AAA-123 </div>
+            </div>
+            <div class="accountNumDetailsContainers">
+                <div class="accountValue">
+                    <div class="currnetAccBalance">$5700.6 </div>
+                    <div class="percentageChangePositive"> %0.08/$75845 </div>
+
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="innerContainer">
+            <div class="accountLabelContainers">
+                <div class="accountLabel"> AAA-123 </div>
+            </div>
+            <div class="accountNumDetailsContainers">
+                <div class="accountValue">
+                    <div class="currnetAccBalance">$5700.6 </div>
+                    <div class="percentageChangePositive"> %0.08/$75845 </div>
+
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="footerContainer">
+            <div class="footerText"> Load more</div>
+        </div>
+    </div>
+</body>
+
+</html>
