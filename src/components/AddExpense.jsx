@@ -34,7 +34,7 @@ export default class AddExpense extends React.Component {
 
     showProductDiv = (x) => {
         if (x == "true") {
-            this.state = { showProductDiv: false };
+            // this.state = { showProductDiv: false };
             this.setState({ showProductDiv: true })
         }
     }
@@ -49,7 +49,8 @@ export default class AddExpense extends React.Component {
     }
 
     selectedOption = (e) => {
-        if (e != "select") {
+        console.log("Onclick selectedOption");
+        if (e.target.value != "select") {
             console.log(e.target.value);
             this.prepareOptionsForCategorType(e.target.value);
         }
@@ -58,9 +59,11 @@ export default class AddExpense extends React.Component {
     prepareOptionsForCategorType = (e) => {
         if (e != "select") {
             let selectedCategory = e;
+            console.log("selectedCategory  "+  selectedCategory);
             let optionsList = Object.keys(optionsData[selectedCategory]);
             let result = [];
-            result = optionsList.map((item) => <option value={item}>{item}</option>)
+            result = optionsList.map((item) => <option value={item}>{item}</option>);
+            console.log("Options for the subcategory   "+  result);
             this.setState({ prepareOptionsForCategorType: result });
         }
     }
@@ -81,19 +84,11 @@ export default class AddExpense extends React.Component {
     }
 
     handleAddNewExpenseInput = () => {
-        // return (
-        //     <React.Fragment>
-        //         <Form.Group controlId="formBasicEmail">
-        //             <Form.Label>Add Specific Expense:</Form.Label>
-        //             <Form.Control type="text" placeholder="Add New Expense not present in the list" />
-        //         </Form.Group>
-        //     </React.Fragment>
-        // )
         this.setState({ showAddNewExpenseTypeInput: !this.state.showAddNewExpenseTypeInput });
-        // alert(this.state.showAddNewExpenseTypeInput)
     }
 
     onchangeFormData = (e) => {
+        console.log("Onchange  onchangeFormData");
         let x = this.state.formList;
         x[e.target.name] = e.target.value;
     }
@@ -123,8 +118,12 @@ export default class AddExpense extends React.Component {
         })
     }
 
+    componentDidMount(){
+        console.log("AddExpense.componentdismount")
+    }
 
     render() {
+        console.log("AddExpense.render");
         return (
             <Container>
                 <Row>

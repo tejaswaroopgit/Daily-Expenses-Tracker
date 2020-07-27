@@ -23,6 +23,7 @@ export default class ExpenseGrid extends React.Component {
         this.setState({ list: this.state.list });
         console.log(this.state.list);
         this.CreateExpeseCards();
+        this.props.removeSelectedExpense()
     }
 
 
