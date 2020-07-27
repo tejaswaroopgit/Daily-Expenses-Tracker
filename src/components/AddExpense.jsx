@@ -30,7 +30,7 @@ export default class AddExpense extends React.Component {
             this.setState({ showProductDiv: true });
         }
         this.onchangeFormData(e);
-    }
+    } 
 
     showProductDiv = (x) => {
         if (x == "true") {
