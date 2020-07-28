@@ -9,6 +9,7 @@ import ExpenseSnapshot from './ExpenseSnapshot.jsx';
 export default class Welcome extends React.Component {
     componentDidUpdate(){
         //console.log("test");
+        //alert("Test");
     }
     render() {
         return (
